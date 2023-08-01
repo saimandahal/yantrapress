@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "plugins",
+			"path": "../../plugins"
+		},
+		{
+			"name": "yantrapress",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
