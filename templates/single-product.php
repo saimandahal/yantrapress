@@ -20,7 +20,16 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 get_header( 'shop' ); ?>
-
+<style>
+	h1{
+		color: #000;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 140.023%; 
+	}
+	</style>
 	<?php
 		/**
 		 * woocommerce_before_main_content hook.
@@ -55,7 +64,7 @@ get_header( 'shop' ); ?>
 		 */
 		do_action( 'woocommerce_sidebar' );
 	?>
-
+<!-- <h2 class="product-similar-heading">Similar Products For You</h2> -->
 <?php
 get_footer( 'shop' );
 
